@@ -1,4 +1,4 @@
-import { ApolloClient, ApolloQueryResult, ObservableQuery } from 'apollo-client';
+import ApolloClient, { ApolloQueryResult, ObservableQuery } from 'apollo-client';
 import { observeOn } from 'rxjs/operator/observeOn';
 import { AsyncAction } from 'rxjs/scheduler/AsyncAction';
 import { AsyncScheduler } from 'rxjs/scheduler/AsyncScheduler';

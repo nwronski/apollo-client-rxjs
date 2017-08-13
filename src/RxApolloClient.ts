@@ -1,4 +1,4 @@
-import { ApolloClient, WatchQueryOptions } from 'apollo-client';
+import ApolloClient, { WatchQueryOptions } from 'apollo-client';
 
 import { RxObservableQuery } from './RxObservableQuery';
 import { createWithObservableVariables } from './utils/variables';

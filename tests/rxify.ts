@@ -1,6 +1,6 @@
 import { assert } from 'chai';
 import { Subject } from 'rxjs/Subject';
-import { ApolloClient } from 'apollo-client';
+import ApolloClient from 'apollo-client';
 
 import { rxify } from '../src/rxify';
 import { RxObservableQuery } from '../src/RxObservableQuery';

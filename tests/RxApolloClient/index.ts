@@ -1,5 +1,5 @@
 import { assert } from 'chai';
-import { ApolloClient } from 'apollo-client';
+import ApolloClient from 'apollo-client';
 
 import { RxApolloClient } from '../../src/RxApolloClient';
 

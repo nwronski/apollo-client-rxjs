@@ -1,6 +1,6 @@
 import { assert } from 'chai';
 import { spy, stub } from 'sinon';
-import { ApolloClient, ObservableQuery, ApolloQueryResult } from 'apollo-client';
+import ApolloClient, { ObservableQuery, ApolloQueryResult } from 'apollo-client';
 
 import * as heroes from './fixtures/heroes';
 import { RxObservableQuery } from '../src/RxObservableQuery';
